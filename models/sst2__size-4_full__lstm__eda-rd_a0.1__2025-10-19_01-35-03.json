@@ -1,0 +1,18 @@
+{
+  "dataset": "sst2",
+  "size": "4_full",
+  "variant": "eda",
+  "method": "rd",
+  "alpha": 0.1,
+  "model_type": "lstm",
+  "input_size": 50,
+  "word2vec_len": 100,
+  "epochs": 11,
+  "batch_size": 256,
+  "val_split": 0.1,
+  "train_seconds": 50.93,
+  "train_file": "/content/drive/MyDrive/EDA_Project/size_data_f1/4_full/sst2/train_rd_0.1.txt",
+  "test_file": "/content/drive/MyDrive/EDA_Project/size_data_f1/test/sst2/test.txt",
+  "test_acc": 0.7694954128440367,
+  "timestamp": "2025-10-19_01-35-03"
+}

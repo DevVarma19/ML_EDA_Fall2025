@@ -1,0 +1,18 @@
+{
+  "dataset": "sst2",
+  "size": "1_tiny",
+  "variant": "eda",
+  "method": "rd",
+  "alpha": 0.4,
+  "model_type": "cnn",
+  "input_size": 50,
+  "word2vec_len": 100,
+  "epochs": 9,
+  "batch_size": 256,
+  "val_split": 0.1,
+  "train_seconds": 10.4,
+  "train_file": "/content/drive/MyDrive/EDA_Project/size_data_f1/1_tiny/sst2/train_rd_0.4.txt",
+  "test_file": "/content/drive/MyDrive/EDA_Project/size_data_f1/test/sst2/test.txt",
+  "test_acc": 0.7052752293577982,
+  "timestamp": "2025-10-19_00-23-39"
+}

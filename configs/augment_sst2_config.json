@@ -1,0 +1,29 @@
+{
+  "sizes": [
+    "1_tiny",
+    "2_small",
+    "3_standard",
+    "4_full"
+  ],
+  "a_methods": [
+    "sr",
+    "ri",
+    "rd",
+    "rs"
+  ],
+  "alphas": [
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "dataset": "sst2",
+  "n_aug_by_size": {
+    "size_data_f1/1_tiny": 16,
+    "size_data_f1/2_small": 16,
+    "size_data_f1/3_standard": 8,
+    "size_data_f1/4_full": 8
+  }
+}
